@@ -45,6 +45,13 @@ export default function Page() {
             className="p-3 lg:w-96 border focus:outline-blue-400 rounded"
           />
         </div>
+        <div className="flex w-full lg:w-96 flex-col gap-2">
+          <label>Email Address</label>
+          <Input
+            placeholder="Enter your email address"
+            className="p-3 lg:w-96 border focus:outline-blue-400 rounded"
+          />
+        </div>
         <div className="flex w-full flex-col lg:w-96 gap-2">
           <label>Password</label>
           <Input

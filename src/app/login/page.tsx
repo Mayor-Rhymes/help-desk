@@ -13,9 +13,9 @@ export default function Page() {
       <form className="py-6 px-10 lg:px-0 w-full lg:w-[30%] flex flex-col gap-6 items-center">
         <h4 className="text-3xl">Login</h4>
         <div className="flex w-full lg:w-96 flex-col gap-2">
-          <label>Username</label>
+          <label>Email Address</label>
           <Input
-            placeholder="Enter your username"
+            placeholder="Enter your email address"
             className="p-3 lg:w-96 border focus:outline-blue-400 rounded"
           />
         </div>
